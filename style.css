@@ -31,14 +31,41 @@ h1 {
     color: black;
     font-family: var(--heading-font-family);
 }
-h2 {
+h2,
+h6 {
     font-family: var(--heading-font-family);
 }
-.cover {
-    object-fit: cover;
+p {
+    font-family: var(--default-font-family);
+}
+.cover-image {
+    background-image: url("./images/patrick2-hendry-1ow9zrlldJU-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    padding: 15px;
-    max-height: 600px;
+    min-height: 600px;
+    position: relative;
+}
+.cover-image .container {
+    overflow: hidden;
+}
+.cover-image h1 {
+    color: white;
+    position: absolute;
+    max-width: 671px;
+    bottom: 281px;
+    font-size: 69px;
+    padding-right: 30px;
+    left: 85px;
+}
+.cover-image h6 {
+    color: white;
+    position: absolute;
+    max-width: 500px;
+    bottom: 198px;
+    font-size: 25px;
+    padding-right: 30px;
+    left: 85px;
 }
 .img-service {
     width: 60%;
@@ -47,9 +74,25 @@ h2 {
 
 /* Responsive */
 @media (max-width: 900px) {
-    img {
-        width: 71px;
-        margin-left: 15px;
+    .logo {
+        width: 55px;
+        margin-left: 5px;
+    }
+    .navbar-toggler {
+        margin-right: 2px;
+    }
+    .cover-image {
+        min-height: 300px;
+    }
+    .cover-image h1 {
+        font-size: 31px;
+        left: 21px;
+        bottom: 218px;
+    }
+    .cover-image h6 {
+        font-size: 13px;
+        left: 21px;
+        bottom: 165px;
     }
     .nav-item {
         font-size: 18px;
