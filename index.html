@@ -17,6 +17,10 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/dc30d76cd6.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -43,13 +47,17 @@
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cycling training</a>
+                            <a class="nav-link" href="#cycling"
+                                >Cycling training</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Guiding services</a>
+                            <a class="nav-link" href="#guiding"
+                                >Guiding services</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Trail creation</a>
+                            <a class="nav-link" href="#trail">Trail creation</a>
                         </li>
                     </ul>
                 </div>
@@ -67,84 +75,156 @@
             </div>
         </div>
         <div>
-            <div class="container">
-                <h2 class="text-center">About Us</h2>
-                <p>
-                    Mountain biking is a thrilling sport that involves riding
-                    bicycles off-road on rough and rugged terrain, such as
-                    mountains, hills, and forests. It's a great way to stay
-                    active and explore the great outdoors, while also pushing
-                    yourself to new limits and improving your overall fitness.
-                </p>
-                <p>
-                    Our website is packed with tips, tricks, and resources to
-                    help you get started with mountain biking, or to take your
-                    existing skills to the next level. We cover everything from
-                    the basics of bike maintenance and safety, to advanced
-                    riding techniques and trail recommendations.
-                </p>
-                <p>
-                    Browse through our articles, videos, and product reviews to
-                    find the information you need to get started or to improve
-                    your skills. We also have a community of mountain biking
-                    enthusiasts who are ready to share their knowledge and
-                    experience with you.
-                </p>
+            <div class="container about-us">
+                <div>
+                    <h2 class="text-center">About Us</h2>
+                    <p>
+                        Mountain biking is a thrilling sport that involves
+                        riding bicycles off-road on rough and rugged terrain,
+                        such as mountains, hills, and forests. <br />
+                        It's a great way to stay active and explore the great
+                        outdoors, while also pushing yourself to new limits and
+                        improving your overall fitness. <br />
+                        Our website is packed with tips, tricks, and resources
+                        to help you get started with mountain biking, or to take
+                        your existing skills to the next level. <br />
+                        We cover everything from the basics of bike maintenance
+                        and safety, to advanced riding techniques and trail
+                        recommendations.
+                    </p>
+                </div>
+                <div class="about-photos">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img
+                                src="images/bgsidde-9523168.jpg"
+                                class="img-fluid"
+                            />
+                            <div class="city"><h6>Athens</h6></div>
+                        </div>
+                        <div class="col-md-3">
+                            <img
+                                src="images/bgsidde-9523168.jpg"
+                                class="img-fluid"
+                            />
+                            <div class="city"><h6>Athens</h6></div>
+                        </div>
+                        <div class="col-md-3">
+                            <img
+                                src="images/bgsidde-9523168.jpg"
+                                class="img-fluid"
+                            />
+                            <div class="city"><h6>Athens</h6></div>
+                        </div>
+                        <div class="col-md-3">
+                            <img
+                                src="images/bgsidde-9523168.jpg"
+                                class="img-fluid"
+                            />
+                            <div class="city"><h6>Athens</h6></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img
+                                src="images/bgsidde-9523168.jpg"
+                                class="img-fluid"
+                            />
+                            <div class="city"><h6>Athens</h6></div>
+                        </div>
+                        <div class="col-md-3">
+                            <img
+                                src="images/bgsidde-9523168.jpg"
+                                class="img-fluid"
+                            />
+                            <div class="city"><h6>Athens</h6></div>
+                        </div>
+                        <div class="col-md-3">
+                            <img
+                                src="images/bgsidde-9523168.jpg"
+                                class="img-fluid"
+                            />
+                            <div class="city"><h6>Athens</h6></div>
+                        </div>
+                        <div class="col-md-3">
+                            <img
+                                src="images/bgsidde-9523168.jpg"
+                                class="img-fluid"
+                            />
+                            <div class="city"><h6>Athens</h6></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col">
-                        <h2>Cycling training</h2>
-                        <p>
-                            Browse through our articles, videos, and product
-                            reviews to find the information you need to get
-                            started or to improve your skills. We also have a
-                            community of mountain biking enthusiasts who are
-                            ready to share their knowledge and experience with
-                            you.
-                        </p>
+            <div class="container services">
+                <div class="row service" id="cycling">
+                    <div class="col-md-6">
+                        <div class="service-description">
+                            <h2>Cycling training</h2>
+                            <p class="mb-5">
+                                Browse through our articles, videos, and product
+                                reviews to find the information you need to get
+                                started or to improve your skills. We also have
+                                a community of mountain biking enthusiasts who
+                                are ready to share their knowledge and
+                                experience with you.
+                            </p>
+                            <a href="#contact-info" class="service-button">
+                                Contact us</a
+                            >
+                        </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <img
                             src="images/sidney-pearce-u1XKeWtGiYc-unsplash.jpg"
                             class="img-fluid"
                         />
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col mb-5">
+                <div class="row service" id="guiding">
+                    <div class="col-md-6">
                         <img
-                            src="images/sidney-pearce-u1XKeWtGiYc-unsplash.jpg"
+                            src="images/michael-michelovski-ot6TsWbEIyI-unsplash.jpg"
                             class="img-fluid"
                         />
                     </div>
-                    <div class="col">
-                        <h2>Cycling training</h2>
-                        <p>
-                            Browse through our articles, videos, and product
-                            reviews to find the information you need to get
-                            started or to improve your skills. We also have a
-                            community of mountain biking enthusiasts who are
-                            ready to share their knowledge and experience with
-                            you.
-                        </p>
+                    <div class="col-md-6">
+                        <div class="service-description">
+                            <h2>Guiding services</h2>
+                            <p class="mb-5">
+                                Browse through our articles, videos, and product
+                                reviews to find the information you need to get
+                                started or to improve your skills. We also have
+                                a community of mountain biking enthusiasts who
+                                are ready to share their knowledge and
+                                experience with you.
+                            </p>
+                            <a href="#contact-info" class="service-button">
+                                Contact us</a
+                            >
+                        </div>
                     </div>
                 </div>
-                <div class="row mb-5">
-                    <div class="col">
-                        <h2>Cycling training</h2>
-                        <p>
-                            Browse through our articles, videos, and product
-                            reviews to find the information you need to get
-                            started or to improve your skills. We also have a
-                            community of mountain biking enthusiasts who are
-                            ready to share their knowledge and experience with
-                            you.
-                        </p>
+                <div class="row service" id="trail">
+                    <div class="col-md-6">
+                        <div class="service-description">
+                            <h2>Trail creation</h2>
+                            <p class="mb-5">
+                                Browse through our articles, videos, and product
+                                reviews to find the information you need to get
+                                started or to improve your skills. We also have
+                                a community of mountain biking enthusiasts who
+                                are ready to share their knowledge and
+                                experience with you.
+                            </p>
+                            <a href="#contact-info" class="service-button">
+                                Contact us</a
+                            >
+                        </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <img
-                            src="images/sidney-pearce-u1XKeWtGiYc-unsplash.jpg"
+                            src="images/cycles-6895_1920.jpg"
                             class="img-fluid"
                         />
                     </div>
@@ -152,31 +232,48 @@
             </div>
             <footer>
                 <section>
-                    <h2>Contact Us</h2>
-                    <p>
-                        We're always happy to hear from fellow mountain biking
-                        enthusiasts! If you have any questions, feedback, or
-                        suggestions, please don't hesitate to get in touch with
-                        us.
-                    </p>
-                    <ul>
-                        <li>
-                            Email:
-                            <a href="mailto:blessedpeaks@gmail.com"
-                                >blessedpeaks@gmail.com</a
+                    <div class="contact" id="contact-info">
+                        <h2>Let's get in touch!</h2>
+                        <p>
+                            We're always happy to hear from fellow mountain
+                            biking enthusiasts! <br />
+                            If you have any questions, feedback, or suggestions,
+                            please don't hesitate to get in touch with us.
+                        </p>
+                        <div
+                            class="d-flex justify-content-evenly contact-links"
+                        >
+                            <h5 class="email-link">
+                                <u>
+                                    Email:
+                                    <a href="mailto:blessedpeaks@gmail.com"
+                                        >blessedpeaks@gmail.com</a
+                                    >
+                                </u>
+                            </h5>
+                            <h5 class="phone-nbr">
+                                <u> Phone: +30 6974255534 </u>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <h2>Follow us</h2>
+                        <div class="d-flex justify-content-center">
+                            <a
+                                href="https://www.facebook.com/BlessedPeaks"
+                                target="_blank"
+                                title="facebook profile"
                             >
-                        </li>
-                        <li>Phone: +30 6974255534</li>
-                        <li>
-                            Social Media:
-                            <a href="https://www.facebook.com/BlessedPeaks"
-                                >Facebook</a
-                            >,
-                            <a href="https://www.instagram.com/blessedpeaks/"
-                                >Instagram</a
-                            >
-                        </li>
-                    </ul>
+                                <i class="fa-brands fa-facebook"></i
+                            ></a>
+                            <a
+                                href="https://www.instagram.com/blessedpeaks/"
+                                target="_blank"
+                                title="instagram profile"
+                                ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                        </div>
+                    </div>
                 </section>
             </footer>
         </div>

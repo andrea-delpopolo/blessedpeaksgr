@@ -27,14 +27,15 @@
 }
 
 /* Main */
-h1 {
-    color: black;
-    font-family: var(--heading-font-family);
-}
+h1,
 h2,
 h6 {
     font-family: var(--heading-font-family);
 }
+h2 {
+    font-size: 64px;
+}
+
 p {
     font-family: var(--default-font-family);
 }
@@ -54,26 +55,130 @@ p {
     position: absolute;
     max-width: 671px;
     bottom: 281px;
-    font-size: 69px;
+    font-size: 72px;
     padding-right: 30px;
     left: 85px;
+    margin-bottom: 74px;
 }
 .cover-image h6 {
     color: white;
     position: absolute;
     max-width: 500px;
     bottom: 198px;
-    font-size: 25px;
+    font-size: 28px;
     padding-right: 30px;
     left: 85px;
+    margin-bottom: 9px;
 }
-.img-service {
-    width: 60%;
+.row {
+    margin-bottom: 37px;
+}
+.about-us {
+    margin: 62px;
+}
+.about-us p {
+    text-align: center;
+}
+.about-photos {
+    margin-top: 61px;
+}
+.about-photos h6 {
+    font-size: 27px;
+}
+.city {
+    text-transform: uppercase;
+    color: var(--styling-color);
+    position: relative;
+    text-align: center;
+    bottom: 106px;
+}
+.service {
+    margin-bottom: 150px;
+    margin-top: 155px;
+}
+.services p {
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 70%;
+}
+.service-description {
+    padding: 45px 52px;
+}
+.service-button {
+    font-size: 19px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    padding: 10px 30px;
+    line-height: 24px;
+    font-family: var(--heading-font-family);
+    width: 155px;
+    color: white;
+    background-color: var(--secondary-color);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.service-button:hover {
+    color: var(--secondary-color);
+    background-color: white;
+    cursor: pointer;
 }
 /* Footer */
-
+.contact {
+    background-image: url("./images/bgsidde-9523168.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 332px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.contact h2 {
+    padding: 20px;
+}
+.contact p {
+    font-size: 18px;
+}
+.contact a {
+    text-decoration: none;
+    color: var(--styling-color);
+}
+.contact .contact-links {
+    margin-top: 72px;
+}
+.contact .email-link {
+    color: var(--styling-color);
+    font-weight: 700;
+}
+.contact .phone-nbr {
+    color: var(--styling-color);
+    font-weight: 700;
+}
+.social-media {
+    background-color: var(--primary-color);
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+.social-media h2 {
+    padding: 55px;
+}
+.social-media a {
+    color: var(--styling-color);
+    font-size: 35px;
+    margin: 0 6px;
+    padding: 10px 14px;
+    transition: all 100ms ease-in-out;
+}
+.social-media a:hover {
+    color: white;
+}
 /* Responsive */
 @media (max-width: 900px) {
+    h2 {
+        font-size: 50px;
+    }
     .logo {
         width: 55px;
         margin-left: 5px;
@@ -100,5 +205,12 @@ p {
     }
     .navbar-toggler {
         margin-right: 30px;
+    }
+    .service-description {
+        text-align: center;
+        padding: 0;
+    }
+    .img-fluid {
+        margin-top: 53px;
     }
 }
